@@ -1,19 +1,26 @@
 import React from 'react'
 import { render } from 'react-dom'
 import App from './components/App'
-import { Router, Route, hashHistory } from 'react-router'
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import Events from './components/Events'
 import Tickets from './components/Tickets'
 import Sidebar from './components/Sidebar.js'
 import Footer from './components/Footer.js'
+import About from './components/About'
+import Repo from './components/Repo'
+import Home from './components/Home'
 
 render ((
-<Router history={hashHistory}>
+<Router history={browserHistory}>
     <Route path="/" component={App} >
-      <Route path="/events" component={Events} />
+      <IndexRoute component={Home} />
+      <Route path="/about" component={About} >
+        <Route path="/about/:userName/:repoName" component={Repo}/>
+      </Route>
+      <Route path="/events" component={Events} >
+        <Route path="/events/:userName/:repoName" component={Repo}/>
+      </Route>
       <Route path="/tickets" component={Tickets} />
-      <Route path="/Sidebar" component={Sidebar} />
-      <Route path="/Footer" component={Footer} />
     </Route>
 </Router>
 ), document.getElementById('root'));

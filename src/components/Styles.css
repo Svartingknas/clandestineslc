@@ -1,0 +1,15 @@
+Body{
+  background-color: grey;
+  /*background-image: url('./images/website.jpg');*/
+
+}
+.sidenav {
+  background-color: black;
+  height: 100%;
+  float: right;
+  margin-top: 40px;
+}
+
+.active {
+  color: green;
+}
