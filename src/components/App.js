@@ -10,14 +10,13 @@ export default class App extends React.Component {
   render () {
     return (
       <div className='container'>
-        <ul role="nav">
-          <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
-          <li><NavLink to="/About">About Us</NavLink></li>
-          <li><NavLink to="/Events">Events</NavLink></li>
-          <li><NavLink to="/Tickets">Tickets</NavLink></li>
-        </ul>
+        <div className='col-sm-8'>
+
         {this.props.children || <Home/>}
-          <Sidebar />
+        </div>
+          <div>
+            <Sidebar />
+          </div>
           <Footer />
       </div>
     );

@@ -4,9 +4,9 @@ import Styles from './Styles.css'
 export default class Footer extends React.Component {
   render () {
     return(
-      <div className="footer">
-        <footer className="container-fluid" >
-          <p className="footer">Footer data</p>
+      <div>
+        <footer>
+          <p>Footer data</p>
         </footer>
     </div>
     );
