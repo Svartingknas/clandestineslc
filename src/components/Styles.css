@@ -1,11 +1,11 @@
 Body {
-  margin: 100px;
+  padding: 5%;
   background-color: grey;
   background-image: url('./images/website.jpg');
-  background-size: cover;
+  background-size: 800px;
   background-position: center;
-
-
+  min-width: 50vw;
+  min-height: 50vw;
 }
 
 .sidenav {
