@@ -9,7 +9,7 @@ export default React.createClass({
     <div>
       <h2>Events</h2>
         <ul>
-          <li><NavLink to="/events/band/upcoming">Upcoming Events</NavLink></li>
+          <li><NavLink to="/events/band/Upcoming">Upcoming Events</NavLink></li>
           <li><NavLink to="/events/band/Past">Past Events</NavLink></li>
         </ul>
         {this.props.children}

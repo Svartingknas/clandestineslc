@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 Body {
   padding: 5%;
   background-color: grey;
