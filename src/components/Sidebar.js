@@ -12,9 +12,9 @@ export default class Sidebar extends React.Component {
                   <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
                   <li><NavLink to="/About">About Us</NavLink></li>
                   <li><NavLink to="/Events">Events</NavLink></li>
-                  <li><NavLink to="/Tickets">Tickets</NavLink></li>
-                  <li><Link to="/https://www.facebook.com/clandestineSLC/">Facebook page</Link></li>
-                  <li><Link to="/https://www.facebook.com/clandestineSLC/">Soundcloud page</Link></li>
+                  <li><a href="https://www.residentadvisor.net/" target="_blank">Tickets</a></li>
+                  <li><a href="https://www.facebook.com/clandestineSLC/" target="_blank">Facebook</a></li>
+                  <li><a href="https://soundcloud.com/" target="_blank">Soundcloud</a></li>
               </ul>
             </div>
     );
