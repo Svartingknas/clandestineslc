@@ -7,7 +7,7 @@ Body {
   padding: 5%;
   background-color: grey;
   background-image: url('./images/website.jpg');
-  background-size: 800px;
+  background-size: 80vw;
   background-position: center;
   min-width: 50vw;
   min-height: 50vw;
@@ -27,6 +27,9 @@ footer{
   float: inherit;
   background-color: white;
 }
+h1{
+  background-color: white;
+}
 
 h2{
   background-color: black;
@@ -34,4 +37,8 @@ h2{
 
 .hometext {
   color: white;
+}
+li{
+  background-color: black;
+  font-size: 24px;
 }

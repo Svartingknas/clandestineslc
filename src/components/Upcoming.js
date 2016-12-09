@@ -4,8 +4,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h1>test </h1>
+        <h1>test for upcoming </h1>
       </div>
-  )
-  }
+  )}
 })
