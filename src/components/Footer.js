@@ -4,7 +4,7 @@ import Styles from './Styles.css'
 export default class Footer extends React.Component {
   render () {
     return(
-        <footer> 
+        <footer className="container-fluid"> 
           Footer
         </footer>
     );

@@ -13,20 +13,35 @@ Body {
   min-height: 50vw;
 }
 
+/*.row.content {
+  height: 1500px;
+}*/
+
 .sidenav {
   background-color: black;
   height: 100%;
+  margin: 40px;
   float: right;
-  margin-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;}
 }
 
 .active {
   color: green;
 }
-footer{
-  float: inherit;
-  background-color: white;
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
 }
+
 h1{
   background-color: white;
 }
