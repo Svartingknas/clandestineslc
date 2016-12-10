@@ -7,9 +7,9 @@ export default class Footer extends React.Component {
     return(
       <div>
         <footer className="container-fluid">
+          <div className="fb-like" data-href="https://clandestineslc.com/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
           <Link to="/"> 🏠 </Link>
           <Link to="/about/band/Contact"> ✉️ </Link>
-          <div className="fb-share-button" data-href="http://localhost:3000/game" id="fbshare" data-layout="button_count"></div>
         </footer>
 
       </div>
