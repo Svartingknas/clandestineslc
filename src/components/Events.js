@@ -14,6 +14,5 @@ export default React.createClass({
         </ul>
         {this.props.children}
     </div>
-  )
-  }
+  )}
 })

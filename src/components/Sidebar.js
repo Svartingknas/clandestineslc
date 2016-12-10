@@ -1,6 +1,6 @@
-import React from 'react';
-import Styles from './Styles.css';
-import { Link, IndexLink } from 'react-router'
+import React from 'react'
+import Styles from './Styles.css'
+import { IndexLink } from 'react-router'
 import NavLink from './NavLink'
 
 export default class Sidebar extends React.Component {
