@@ -1,16 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router'
-import Styles from './Styles.css'
+import footer from './Styles.css'
+import { Glyphicon } from 'react-bootstrap'
+
 
 export default class Footer extends React.Component {
   render () {
     return(
-      <div>
-        <footer className="container-fluid">
-          <div className="fb-like" data-href="https://clandestineslc.com/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-          <Link to="/"> 🏠 </Link>
-          <Link to="/about/band/Contact"> ✉️ </Link>
-        </footer>
+      <div  className="container-fluid">
+        <footer>
+          <hr />
+          <Link to="/"><Glyphicon glyph="glyphicon glyphicon-home" /> </Link>
+          <Link to="/about/band/Contact"><Glyphicon glyph="glyphicon glyphicon-envelope" /> </Link>
+          <div><div className="fb-like" text-align="right" data-href="https://clandestineslc.com/" data-layout="button" data-action="recommend" data-size="small" data-show-faces="false" data-share="true"></div></div>
+          <hr />
+      </footer>
 
       </div>
     );
