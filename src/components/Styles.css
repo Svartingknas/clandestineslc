@@ -75,3 +75,8 @@ li{
    font-size: 42px;
    color: black;
  }
+
+ .inside-modal{
+   padding: 10px;
+   background-color: grey;
+ }
