@@ -6,7 +6,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2>About Us</h2>
+        <h1>About Us</h1>
         <ul>
           <li><NavLink to="/about/band/Contact">Contact us</NavLink></li>
         </ul>

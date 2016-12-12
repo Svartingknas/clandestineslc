@@ -10,11 +10,13 @@ export default class App extends React.Component {
     return (
       <div>
         <Header />
+          <hr />
           <div>
             <div className='col-sm-9'>
               {this.props.children || <Home/>}
             </div>
               <Sidebar />
+              <hr />
               <Footer />
             </div>
       </div>
