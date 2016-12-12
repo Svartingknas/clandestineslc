@@ -24,10 +24,9 @@ export default class Contact extends React.Component{
   render(){
     return (
       <div>
-        <a onClick={this.show.bind(this)}>Open Modal</a>
+        <a onClick={this.show.bind(this)}>x</a>
         <Modal
         className="modal-container"
-        containerStyle={{background: 'blue'}}
         containerClassName="\"
         closeOnOuterClick={true}
         show={this.state.show}

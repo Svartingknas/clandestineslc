@@ -8,7 +8,7 @@ export default class Sidebar extends React.Component {
     return (
         <div className="row content">
           <div className="col-sm-2 sidenav">
-              <h3>Follow us on:</h3>
+              <h2>Info</h2>
                 <ul className="nav nav-pills nav-stacked">
                   <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
                   <li><NavLink to="/About">About Us</NavLink></li>
