@@ -19,7 +19,7 @@ render ((
         <Route path="/about/:userName/:repoName" component={Contact}/>
       </Route>
       <Route path="/events" component={Events} >
-        <Route path="/events/:userName/:repoName" component={Past}/>
+        <Route path="/events/:userName/:repoName" component={Past} />
       </Route>
     </Route>
 </Router>

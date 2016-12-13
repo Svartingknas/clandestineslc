@@ -1,5 +1,4 @@
 import React from 'react';
-import header from './Styles.css'
 
 export default class Header extends React.Component {
   render () {

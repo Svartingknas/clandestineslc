@@ -1,9 +1,7 @@
 import React from 'react'
-import { Button, Modal } from 'react-bootstrap'
-import { ReactDOM } from 'react-dom'
-import App from './App'
-import $ from 'jquery'
-import modal, {closeStyle} from 'simple-react-modal'
+import { Modal } from 'react-bootstrap'
+// import $ from 'jquery'
+import {closeStyle} from 'simple-react-modal'
 
 export default class Contact extends React.Component{
 
@@ -24,19 +22,17 @@ export default class Contact extends React.Component{
   render(){
     return (
       <div>
-        <a onClick={this.show.bind(this)}>x</a>
+        <a onClick={this.show.bind(this)}>xsdhjflkasdhfkldsajlfjasdlfjlsad</a>
         <Modal
         className="modal-container"
         containerClassName="\"
-        closeOnOuterClick={true}
-        show={this.state.show}
-        onClose={this.close.bind(this)}>
+        show={this.state.show}>
 
-      <a style={closeStyle} onClick={this.close.bind(this)}>X</a>
+       <a style={closeStyle} onClick={this.close.bind(this)}>X</a>
 
       <div className="inside-modal">
         <h4>Communicate with us via E-mail</h4>
-          <form action="mailto:someone@example.com" method="post" enctype="text/plain"><br/>Name:<br/>
+          <form action="mailto:someone@example.com" method="post" encType="text/plain"><br/>Name:<br/>
             <input type="text" name="name" /> <br/>E-mail:<br/>
             <input type="text" name="mail" /> <br/>Comment:<br/>
             <input type="text" name="comment" size="50" /><br/>

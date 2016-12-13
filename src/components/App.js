@@ -3,7 +3,7 @@ import Header from './Header'
 import Sidebar from './Sidebar'
 import Footer from './Footer'
 import Home from './Home'
-import Past from './Past'
+
 
 
 export default class App extends React.Component {

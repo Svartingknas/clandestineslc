@@ -1,5 +1,4 @@
 import React from 'react'
-import Styles from './Styles.css'
 import { IndexLink } from 'react-router'
 import NavLink from './NavLink'
 
