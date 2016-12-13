@@ -2,6 +2,9 @@
   "name": "clandestineslc",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "4.1.1"
+  },
   "devDependencies": {
     "react-scripts": "0.8.1"
   },
@@ -13,14 +16,6 @@
     "react-responsive-carousel": "^3.0.21",
     "react-router": "^3.0.0",
     "simple-react-modal": "^0.5.1"
-  },
-  "engines": {
-  "name": "myapp",
-  "description": "a really cool app",
-  "version": "1.0.0",
-  "engines": {
-    "node": "4.1.1"
-    }
   },
   "scripts": {
     "start": "react-scripts start",
