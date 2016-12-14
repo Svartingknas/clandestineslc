@@ -1,6 +1,5 @@
 import React from 'react'
 import { Modal } from 'react-bootstrap'
-// import $ from 'jquery'
 import {closeStyle} from 'simple-react-modal'
 
 export default class Contact extends React.Component{
@@ -21,11 +20,10 @@ export default class Contact extends React.Component{
 
   render(){
     return (
-      <div  >
-        <a onClick={this.show.bind(this)}>xsdhjflkasdhfkldsajlfjasdlfjlsad</a>
+      <div>
+        <a onClick={this.show.bind(this)} />
         <Modal
         className="modal-container"
-        containerClassName="\"
         show={this.state.show}>
 
        <a style={closeStyle} onClick={this.close.bind(this)}>X</a>
@@ -69,7 +67,6 @@ export default class Contact extends React.Component{
     	</div>
     </form>
     </div>
-
       </Modal>
       </div>
     )

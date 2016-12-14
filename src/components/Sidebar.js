@@ -14,7 +14,7 @@ export default class Sidebar extends React.Component {
                   <li><NavLink to="/Events">Events</NavLink></li>
                   <li><a href="https://www.residentadvisor.net/profile/clandestineSLC" target="_blank">Tickets</a></li>
                   <li><a href="https://www.facebook.com/clandestineSLC/" target="_blank">Facebook</a></li>
-                  <li><a href="https://soundcloud.com/" target="_blank">Soundcloud</a></li>
+                  <li><a href="https://soundcloud.com/clan_destine" target="_blank">Soundcloud</a></li>
               </ul>
             </div>
           </div>

@@ -92,3 +92,7 @@ li{
 h4 {
   color: black;
 }
+.text {
+  color: white;
+  text-shadow: black 2px;
+}
