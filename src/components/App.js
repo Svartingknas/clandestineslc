@@ -19,7 +19,7 @@ export default class App extends React.Component {
               <Sidebar />
               <hr />
               <Footer />
-          </div>
+            </div>
       </div>
 
     );

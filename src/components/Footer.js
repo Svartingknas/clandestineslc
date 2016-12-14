@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router'
 import footer from './Styles.css'
-
+import { Glyphicon } from 'react-bootstrap'
 
 
 export default class Footer extends React.Component {
