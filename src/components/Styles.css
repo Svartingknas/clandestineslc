@@ -84,3 +84,11 @@ li{
  .homeText{
    color: white;
  }
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     width: 70%;
+     margin: auto;
+ }
+h4 {
+  color: black;
+}
