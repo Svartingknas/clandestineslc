@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
 import NavLink from './NavLink'
 
 export default React.createClass({
@@ -8,6 +7,7 @@ export default React.createClass({
     return (
       <div>
         <h1>About Us</h1>
+
           <div className="well" style={wellStyles}>
            <Button bsSize="large" block><NavLink to="/about/band/Contact">Contact us</NavLink></Button>
          </div>
