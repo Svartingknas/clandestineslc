@@ -8,6 +8,7 @@ import Home from './Home'
 
 export default class App extends React.Component {
   render () {
+    console.log('inside app component');
     return (
       <div>
         <Header />
